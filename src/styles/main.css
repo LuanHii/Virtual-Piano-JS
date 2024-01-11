@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e3f2fd;
+}
+
+.container {
+    width: 780px;
+    padding: 35px 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+header h2 {
+    font-size: 1.6rem;
+
+}
+
+header .column {
+    display: flex;
+    align-items: center;
+}
+
+header .column span {
+    font-size: 500;
+    margin: 15px;
+    font-weight: 500;
+}
+
+.volume-slider input {
+    accent-color: white;
+}
+
+.keys-check input {
+    position: relative;
+    appearance: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #4b4b4b;
+    cursor: pointer;
+}
+
